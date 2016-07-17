@@ -132,7 +132,7 @@ The four plots that you will need to construct are shown below.
 
 4. Run plot3.R, to get plot3.PNG plot
   * Plot multiple line charts for Sub_metering1, Sub_metering2 and Sub_metering3 columns against dateTime column.
-  * A legent is created for identify each of these plots.
+  * A legent is created for identify each of these plots
   
 5. Run plot4.R, to get plot4.PNG plot
   * This plots for 4 sub-plots in a 2 by 2 plot.
