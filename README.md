@@ -112,3 +112,31 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+
+## Steps to Reproduce Results
+
+1. Run downloadData.R
+  * This file downloads the dataset to the current working directory
+  * Loads the data as a dataTable and '?' values are marked as NA
+  * Then we subset the data with Dates 1-2-2007 and 2-2-2007. 
+  * Then the Date and Time columns are combined to form a new column dateTime
+
+2. Run plot1.R, do get plot1.PNG plot
+  * Historgram for the column Global_active_power is plotted using hist() function
+  * X and Y Axis are labelled appropiately.
+
+3. Run plot2.R, to get plot2.PNG plot
+  * Line Chart is plotted for the column Global_active_power against the computed dateTime   column. 
+  * First an empty plot with the x and y axis labels is created
+  * Then the plot is annonated using lines() function
+
+4. Run plot3.R, to get plot3.PNG plot
+  * Plot multiple line charts for Sub_metering1, Sub_metering2 and Sub_metering3 columns against dateTime column.
+  * A legent is created for identify each of these plots.
+  
+5. Run plot4.R, to get plot4.PNG plot
+  * This plots for 4 sub-plots in a 2 by 2 plot.
+  * sub plot1 is a line chart for Global_active_power against dateTime column
+  * sub plot2 is line chart for Voltage against dateTime column 
+  * sub plot3 is three line chart, with a legend marked by color, and the label
+  * sub plot4 is a line chart for Global_reactive_power against dateTime column
